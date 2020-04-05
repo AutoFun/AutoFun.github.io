@@ -86,12 +86,12 @@
 
 
 
-<meta name="description" content="Q:hexo中嵌入背景音乐(aplayer)       1.1install aplayer插件1$ npm install --save hexo-tag-aplayer 1.2config.yml加入代码12aplayer:        meting: true 1.3博文中所选区域插入代码单曲 1234&amp;#123;% meting &quot;id&quot; &quot;netease&quot; &quot;song&quot; &quot;theme">
+<meta name="description" content="Q:hexo中嵌入背景音乐(aplayer)       1.1install aplayer插件1$ npm install --save hexo-tag-aplayer 1.2config.yml加入代码12aplayer:        meting: true 1.3博文中所选区域插入代码单曲 1234{% meting &quot;id&quot; &quot;netease&quot; &quot;song&quot; &quot;theme:#555">
 <meta property="og:type" content="article">
 <meta property="og:title" content="test">
 <meta property="og:url" content="https://autofun.github.io/2020/04/04/test-1/index.html">
 <meta property="og:site_name" content="AutoFun">
-<meta property="og:description" content="Q:hexo中嵌入背景音乐(aplayer)       1.1install aplayer插件1$ npm install --save hexo-tag-aplayer 1.2config.yml加入代码12aplayer:        meting: true 1.3博文中所选区域插入代码单曲 1234&amp;#123;% meting &quot;id&quot; &quot;netease&quot; &quot;song&quot; &quot;theme">
+<meta property="og:description" content="Q:hexo中嵌入背景音乐(aplayer)       1.1install aplayer插件1$ npm install --save hexo-tag-aplayer 1.2config.yml加入代码12aplayer:        meting: true 1.3博文中所选区域插入代码单曲 1234{% meting &quot;id&quot; &quot;netease&quot; &quot;song&quot; &quot;theme:#555">
 <meta property="article:published_time" content="2020-04-03T13:06:16.000Z">
 <meta property="article:modified_time" content="2020-04-04T03:03:48.538Z">
 <meta property="article:author" content="Henry">
@@ -350,19 +350,37 @@
 
       
         <h3 id="Q-hexo中嵌入背景音乐-aplayer"><a href="#Q-hexo中嵌入背景音乐-aplayer" class="headerlink" title="Q:hexo中嵌入背景音乐(aplayer)"></a>Q:hexo中嵌入背景音乐(aplayer)</h3> 
-    <div id="aplayer-CwGpZkVW" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1435594710" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"></div>
-<h5 id="1-1install-aplayer插件"><a href="#1-1install-aplayer插件" class="headerlink" title="1.1install aplayer插件"></a>1.1install aplayer插件</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
-<h5 id="1-2config-yml加入代码"><a href="#1-2config-yml加入代码" class="headerlink" title="1.2config.yml加入代码"></a>1.2config.yml加入代码</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">        meting: true</span><br></pre></td></tr></table></figure>
+    <div id="aplayer-lRCDGBsJ" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1435594710" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"></div>
+<h5 id="1-1install-aplayer插件"><a href="#1-1install-aplayer插件" class="headerlink" title="1.1install aplayer插件"></a>1.1install aplayer插件</h5><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-tag-aplayer</span><br></pre></td></tr></tbody></table></figure>
+<h5 id="1-2config-yml加入代码"><a href="#1-2config-yml加入代码" class="headerlink" title="1.2config.yml加入代码"></a>1.2config.yml加入代码</h5><figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">        meting: true</span><br></pre></td></tr></tbody></table></figure>
 <h5 id="1-3博文中所选区域插入代码"><a href="#1-3博文中所选区域插入代码" class="headerlink" title="1.3博文中所选区域插入代码"></a>1.3博文中所选区域插入代码</h5><p>单曲</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting <span class="string">"id"</span> <span class="string">"netease"</span> <span class="string">"song"</span> <span class="string">"theme:#555"</span> <span class="string">"mutex:true"</span> <span class="string">"listmaxheight:340px"</span> <span class="string">"preload:auto"</span> %&#125;</span><br><span class="line"><span class="comment">//id=1435594710</span></span><br><span class="line"><span class="comment">//server=netease  </span></span><br><span class="line"><span class="comment">//type=song</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">{% meting <span class="string">"id"</span> <span class="string">"netease"</span> <span class="string">"song"</span> <span class="string">"theme:#555"</span> <span class="string">"mutex:true"</span> <span class="string">"listmaxheight:340px"</span> <span class="string">"preload:auto"</span> %}</span><br><span class="line"><span class="comment">//id=1435594710</span></span><br><span class="line"><span class="comment">//server=netease  </span></span><br><span class="line"><span class="comment">//type=song</span></span><br></pre></td></tr></tbody></table></figure>
 <p>歌单</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting <span class="string">"1435594710"</span> <span class="string">"netease"</span> <span class="string">"playlist"</span> <span class="string">"theme:#555"</span> <span class="string">"mutex:true"</span> <span class="string">"listmaxheight:340px"</span> <span class="string">"preload:auto"</span> %&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//id=1435594710</span></span><br><span class="line"><span class="comment">//server=netease  </span></span><br><span class="line"><span class="comment">//type=playlist</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">{% meting <span class="string">"1435594710"</span> <span class="string">"netease"</span> <span class="string">"playlist"</span> <span class="string">"theme:#555"</span> <span class="string">"mutex:true"</span> <span class="string">"listmaxheight:340px"</span> <span class="string">"preload:auto"</span> %}</span><br><span class="line"></span><br><span class="line"><span class="comment">//id=1435594710</span></span><br><span class="line"><span class="comment">//server=netease  </span></span><br><span class="line"><span class="comment">//type=playlist</span></span><br></pre></td></tr></tbody></table></figure>
 
 
 
 
 
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
     
@@ -568,7 +586,7 @@
 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共289字</span>
+  <span class="post-count">博客全站共493字</span>
 </div>
 
         
@@ -746,6 +764,14 @@
   
 
   
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+ <script>
+ $("body").backstretch("https://www.duboku.tv/upload/vod/20200225-1/ea5a7af695c714c55cf67db99563a924.jpg");
+ </script>
+</body>
 
 </body>
 </html>
