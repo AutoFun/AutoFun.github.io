@@ -361,7 +361,37 @@
       
         
           
-            <script>
+            <h4 id="Lab2Pseudo-Random-Binary-Sequence-PRBS-Generation"><a href="#Lab2Pseudo-Random-Binary-Sequence-PRBS-Generation" class="headerlink" title="Lab2Pseudo Random Binary Sequence (PRBS) Generation."></a>Lab2Pseudo Random Binary Sequence (PRBS) Generation.</h4><h4 id="Section-1-Displaying-PRSB-Using-the-‘Snapshot’-Method"><a href="#Section-1-Displaying-PRSB-Using-the-‘Snapshot’-Method" class="headerlink" title="\Section 1: Displaying PRSB Using the ‘Snapshot’ Method**"></a><strong><em>\</em>Section 1: Displaying PRSB Using the ‘Snapshot’ Method**</strong></h4><h5 id="task1-Examination-of-Sequence-Generator"><a href="#task1-Examination-of-Sequence-Generator" class="headerlink" title="task1\Examination of Sequence Generator**"></a>task1<strong><em>\</em>Examination of Sequence Generator**</strong></h5><img src="/.io//ECTE363Lab_logbook/image-20200406182504204.png" alt="image-20200406182504204" style="zoom:67%;">
+
+<img src="/.io//ECTE363Lab_logbook/image-20200406182504204.png" alt="image-20200406182504204" style="zoom:67%;">
+
+<p><img src="/.io//ECTE363Lab_logbook/image-20200406173057333.png" alt="image-20200406173057333"></p>
+<p>​                  increase the length of bits switching to ‘4’ from ‘1’</p>
+<h5 id="task2-Band-limiting"><a href="#task2-Band-limiting" class="headerlink" title="task2\Band limiting**"></a>task2<strong><em>\</em>Band limiting**</strong></h5><img src="/.io//ECTE363Lab_logbook/image-20200406172708171.png" alt="image-20200406172708171" style="zoom:67%;">
+
+<p>​                   <img src="/.io//ECTE363Lab_logbook/image-20200406173125050.png" alt="image-20200406173125050"></p>
+<p>​                 <strong>1-</strong> <strong><em>\</em>3dB frequency (WIDE position)**</strong><br>$$<br>288659/360 =801.830 HZ<br>$$<br>​                <strong>2-</strong> <strong><em>\</em>3dB frequency (NORMAL position)**</strong>  </p>
+<p>$$<br>577318/860 =335.65 HZ<br>$$</p>
+<h4 id="Section-2-Two-Generators-Alignment"><a href="#Section-2-Two-Generators-Alignment" class="headerlink" title="\Section 2 Two Generators Alignment**"></a><strong><em>\</em>Section 2 Two Generators Alignment**</strong></h4><img src="/.io//image-20200406175544973.png" alt="image-20200406175544973" style="zoom:67%;">
+
+<p><img src="/.io//ECTE363Lab_logbook/image-20200406175602484.png" alt="image-20200406175602484"></p>
+<p>the generator will remain the state(aligned) until doing next reset action</p>
+<p><strong>*\</strong>The sequences would be offset by the time delay*<em>**</em></p>
+<h4 id="Section-3-Two-Sequence-Alignment"><a href="#Section-3-Two-Sequence-Alignment" class="headerlink" title="\Section 3: Two Sequence Alignment**"></a><strong><em>\</em>Section 3: Two Sequence Alignment**</strong></h4><h5 id="task1-The-Sliding-Window-Correlator"><a href="#task1-The-Sliding-Window-Correlator" class="headerlink" title="task1\The Sliding Window Correlator**"></a>task1<strong><em>\</em>The Sliding Window Correlator**</strong></h5><img src="/.io//ECTE363Lab_logbook/image-20200406181128743.png" alt="image-20200406181128743" style="zoom:67%;">
+
+<p><img src="/.io//ECTE363Lab_logbook/image-20200406181201210.png" alt="image-20200406181201210"></p>
+<p>​       <strong>Once alignment has been achieved, it will be</strong> <strong>*\</strong>maintained*<em>**</em> even <strong>when the RESET signal to the receiver generator is broken.</strong></p>
+<p><strong>*\</strong>Tutorial Question*<em>**</em></p>
+<p>Q1:you have seen the first ‘n’ bits of a sequence, using the start-of-sequence signal to initiate the oscilloscope sweep. How could you show the next ‘n’ bits of the same sequence? Can you demonstrate your method with TIMS? (Hint: you need to delay the SYNC pulse – think about a feature of the oscilloscope or using features of the TWIN PULSE GENERATOR as described in its data sheet). </p>
+<p>Q2: estimate the bandwidth of the sequence as a function of bit rate clock frequency. Describe a method for estimating the maximum rate at which a binary sequence can be transmitted through a low-pass filter. Relate its predictions with your observations. (Hint: at what rate will a rectangular pulse retain its approximate ‘shape’?) </p>
+<p>Q3:explain what is meant when two sequences are ‘synchronised’ and ‘aligned’. </p>
+<p>Q4: was there any obvious misalignment between the TTL sequence input to, and the bandlimited sequence output from, the TUNEABLE LPF? Explain. </p>
+<p>Q5: in the last model examined, explain why the sequence alignment takes longer when the sequence length is increased.</p>
+<p>Q6: suppose the TIMS SEQUENCE GENERATOR is driven by an 8.333 kHz TTL clock. What would the TIMS FREQUENCY COUNTER read if connected to the output sequence? Explain.(Hint: Remember that the sequence is random and the best case is that 50% of pulses will be ‘1’’s and 50% will be 0’s and the frequency counter will only count only when there is a clock pulse and a ‘1’ is transmitted – we expect a much lower count as a result). </p>
+<p>Q7: what should an rms meter read if connected to a TTL pseudo random binary sequence ? </p>
+<p>Q8 :with a 2.083 kHz clock what is the delay, for a 2048 bit sequence, between consecutive displays ? (Hint: delay is number of bits in a repeated sequence times the clock frequency resulting in a time in seconds which will be the delay)</p>
+<p>​       </p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -1043,7 +1073,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -1105,7 +1135,7 @@
 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共545字</span>
+  <span class="post-count">博客全站共975字</span>
 </div>
 
         
