@@ -290,6 +290,176 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://autofun.github.io/2020/04/07/%E5%8D%9A%E5%AE%A2%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E8%AE%BE%E7%BD%AE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Henry">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="AutoFun">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/04/07/%E5%8D%9A%E5%AE%A2%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E8%AE%BE%E7%BD%AE/" itemprop="url">博客背景图片设置</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-04-07T21:55:10+10:00">
+                2020-04-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo博客</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="背景图片设置"><a href="#背景图片设置" class="headerlink" title="背景图片设置"></a>背景图片设置</h4><p><strong>Q</strong> : 网上的url突然丢失，无法加载。</p>
+<hr>
+<p>将想要的背景图片放入 <code>themes/next/source/images</code>。打开 <code>themes/next/source/css/ _custom/custom.styl</code> 文件，添加以下代码：</p>
+<figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> {</span><br><span class="line">    <span class="attribute">background</span>:<span class="built_in">url</span>(/images/yourbackground.jpg);</span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line">    background-attachment:fixed; //不重复</span><br><span class="line">    background-size: cover;      //填充</span><br><span class="line">    <span class="selector-tag">background-position</span><span class="selector-pseudo">:50</span>% 50%;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><code>background:url</code> 为图片路径，也可以直接使用链接。</li>
+<li><code>background-repeat</code>：若果背景图片不能全屏，那么是否平铺显示，充满屏幕</li>
+<li><code>background-attachment</code>：背景是否随着网页上下滚动而滚动，fixed 为固定</li>
+<li><code>background-size</code>：图片展示大小，这里设置 100%，100% 的意义为：如果背景图片不能全屏，那么是否通过拉伸的方式将背景强制拉伸至全屏显示。</li>
+</ul>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://autofun.github.io/2020/04/06/ECTE363Lab-logbook/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -369,7 +539,7 @@
 <p><img src="/2020/04/06/ECTE363Lab-logbook/image-20200406173125050.png" alt="alt"></p>
 <p> <em>3dB frequency (WIDE position)</em><br>$$<br>{288659/360 =801.830 HZ}<br>$$<br><em>3dB frequency (NORMAL position)</em><br>$$<br>{577318/860 =335.65 HZ}<br>$$</p>
 <hr>
-<h4 id="Section-2-Two-Generators-Alignment"><a href="#Section-2-Two-Generators-Alignment" class="headerlink" title="Section 2 Two Generators Alignment*"></a>Section 2 Two Generators Alignment*</h4><p><img src="/2020/04/06/ECTE363Lab-logbook/image-20200406175544973.png" alt="alt"></p>
+<h4 id="Section-2-Two-Generators-Alignment"><a href="#Section-2-Two-Generators-Alignment" class="headerlink" title="Section 2 Two Generators Alignment"></a><em>Section 2 Two Generators Alignment</em></h4><p><img src="/2020/04/06/ECTE363Lab-logbook/image-20200406175544973.png" alt="alt"></p>
 <p><img src="/2020/04/06/ECTE363Lab-logbook/image-20200406175602484.png" alt="alt"></p>
 <p>the generator will remain the state(aligned) until doing next reset action</p>
 <p><em>The sequences would be offset by the time delay</em></p>
@@ -1049,12 +1219,21 @@
               
                 <a href="/archives%7C%7C%20archive">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
             
 
             
@@ -1124,7 +1303,7 @@
 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共972字</span>
+  <span class="post-count">博客全站共1.2k字</span>
 </div>
 
         
