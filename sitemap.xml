@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://autofun.github.io/about/index.html</loc>
+    
+    <lastmod>2020-04-11T03:24:44.620Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://autofun.github.io/2020/04/10/pandoc/</loc>
     
-    <lastmod>2020-04-10T14:47:11.662Z</lastmod>
+    <lastmod>2020-04-11T02:46:05.254Z</lastmod>
     
   </url>
   
@@ -82,13 +89,6 @@
     <loc>https://autofun.github.io/archives/index.html</loc>
     
     <lastmod>2020-04-05T15:01:58.051Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://autofun.github.io/about/index.html</loc>
-    
-    <lastmod>2020-04-05T15:01:26.513Z</lastmod>
     
   </url>
   
