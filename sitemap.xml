@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://autofun.github.io/2020/04/10/DSP-formula/</loc>
+    
+    <lastmod>2020-04-13T09:16:13.905Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://autofun.github.io/2020/04/13/Power-lecture/</loc>
     
-    <lastmod>2020-04-12T15:46:29.510Z</lastmod>
+    <lastmod>2020-04-13T09:14:21.971Z</lastmod>
     
   </url>
   
@@ -47,13 +54,6 @@
     <loc>https://autofun.github.io/2020/04/10/pandoc/</loc>
     
     <lastmod>2020-04-11T02:46:05.254Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://autofun.github.io/2020/04/10/DSP-formula/</loc>
-    
-    <lastmod>2020-04-10T12:14:57.079Z</lastmod>
     
   </url>
   
