@@ -7,6 +7,9 @@ A self blog website
 
 ## Features:
 Support multiple languages
+语法高亮
+media player
+
 
 ## tech stack:
 HTML5  
@@ -19,8 +22,7 @@ Hexo-Theme-Next
 
 ![image](https://user-images.githubusercontent.com/42330996/210160206-d5057643-0fe4-439b-b3e6-b0a31b0e4a15.png)
 
-
-![image](https://user-images.githubusercontent.com/42330996/210160193-ae829946-46ec-4490-8f49-90171b6d7889.png)
+![image](https://user-images.githubusercontent.com/42330996/210160263-0ca96d5c-25b5-418e-aa3e-f534551547ea.png)
 
 ![image](https://user-images.githubusercontent.com/42330996/210159806-ed33fba2-635c-4d8b-8bb1-3ec3e7323aa0.png)
 
