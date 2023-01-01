@@ -31,3 +31,8 @@ Hexo-Theme-Next
 https://autofun.github.io/
 
 ## References:
+https://hexo.io/
+
+https://shields.io/
+
+https://nextjs.org/
