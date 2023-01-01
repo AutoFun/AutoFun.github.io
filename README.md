@@ -1,4 +1,6 @@
 # AutoFun.github.io
+![](https://img.shields.io/badge/Liscense-MIT-green)
+![](https://img.shields.io/badge/Author-AutoFun-blue)
 A self blog website
 
 ## project description:
@@ -43,5 +45,3 @@ https://nextjs.org/
 
 https://github.com/guodongxiaren/README
 
-
-![](https://img.shields.io/badge/Liscense-MIT-green)
