@@ -1,6 +1,6 @@
 # AutoFun.github.io
 ![](https://img.shields.io/badge/Liscense-MIT-green)
-![](https://img.shields.io/badge/Author-AutoFun-blue)
+![](https://img.shields.io/badge/Author-AutoFun-blue)  
 A self blog website
 
 ## project description:
