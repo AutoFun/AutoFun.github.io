@@ -6,16 +6,16 @@ A self blog website
 ## style design:
 
 ## Features:
-Support multiple languages
-语法高亮
-media player
+Support multiple languages    
+语法高亮    
+media player    
 
 
 ## tech stack:
-HTML5  
-JavaScript 
-Node.js
-Hexo-Theme-Next
+HTML5       
+JavaScript    
+Node.js   
+Hexo-Theme-Next   
 
 
 ## album
@@ -36,3 +36,5 @@ https://hexo.io/
 https://shields.io/
 
 https://nextjs.org/
+
+https://github.com/guodongxiaren/README
