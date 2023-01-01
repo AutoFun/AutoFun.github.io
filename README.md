@@ -5,12 +5,11 @@ A self blog website
 
 ## style design:
 
-##Features:
+## Features:
 Support multiple languages
 
 ## tech stack:
 HTML5  
----
 JavaScript 
 Node.js
 Hexo-Theme-Next
