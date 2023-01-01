@@ -30,6 +30,10 @@ Hexo-Theme-Next
 
 https://autofun.github.io/
 
+## configuration
+
+##
+
 ## References:
 https://hexo.io/
 
@@ -38,3 +42,5 @@ https://shields.io/
 https://nextjs.org/
 
 https://github.com/guodongxiaren/README
+
+
