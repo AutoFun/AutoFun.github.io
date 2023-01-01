@@ -6,7 +6,9 @@ project description:
 style design:
 
 
-tech stack: 
+tech stack:
+HTML5
+JavaScript 
 Node.js
 Hexo-Theme-Next
 
