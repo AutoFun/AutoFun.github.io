@@ -2,6 +2,14 @@
 ![](https://img.shields.io/badge/Liscense-MIT-green)
 ![](https://img.shields.io/badge/Author-AutoFun-blue)  
 A self blog website using hexo framework implemented multiple pluggins
+##
+版本迭代方案
+常见问题解决
+代码段
+使用，调试方法
+技术细节
+相关拓展
+
 
 ## project description:
 
