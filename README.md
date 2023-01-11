@@ -12,6 +12,7 @@ A self blog website using hexo framework implemented multiple pluggins
 
 
 ## project description:
+self-blog based on Node.js-Hexo framework with DIY design. Support media player,music player. Customized Archives, 404 Pages.
 
 ## style design:
 
