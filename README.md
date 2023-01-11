@@ -10,6 +10,10 @@ A self blog website using hexo framework implemented multiple pluggins
 技术细节
 相关拓展
 
+SEO
+Cloud deployment
+debugs
+
 
 ## project description:
 self-blog based on Node.js-Hexo framework with DIY design. Support media player,music player. Customized Archives, 404 Pages.
